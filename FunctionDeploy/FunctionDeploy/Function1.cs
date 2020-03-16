@@ -17,7 +17,7 @@ namespace FunctionDeploy
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
-            return "it's works!";
+            return "it's works";
         }
     }
 }
