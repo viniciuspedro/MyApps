@@ -13,7 +13,7 @@ namespace UnitTests
         {
             var service = new Operations();
 
-            var res = service.Sum(value1, value2);
+            var res = service.Sum(value1, value4);
 
             Assert.True(res == result);
         }
